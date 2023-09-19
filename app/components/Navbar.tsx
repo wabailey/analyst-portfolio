@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Themebutton from "./Themebutton";
 
-export default function navbar() {
+export default function Navbar() {
 
 	let pathname = usePathname() || "/";
 
