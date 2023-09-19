@@ -1,12 +1,12 @@
 export default {
-	name: "project",
+	name: "post",
 	type: "document",
-	title: "Project",
+	title: "Blog Post",
 	fields: [
 		{
 			name: "title",
 			type: "string",
-			title: "Title",
+			title: "Title"
 		},
 		{
 			name: "description",
@@ -46,5 +46,5 @@ export default {
 			type: "string",
 			title: "Link",
 		},
-	],
+	]
 }
