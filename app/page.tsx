@@ -68,14 +68,14 @@ export default async function Home() {
             </div>
 
             <p className="text-sm font-light max-w-[300px] text-blue-100 text-center">
-              Hi, I'm Will. You will often find me combining my sporting interests with data analysis!
+              Hi, I&apos;m Will. You will often find me combining my sporting interests with data analysis!
             </p>
 
           </div>
 
           <div className="prose max-w-none pb-4 dark:prose-invert sm:text-xl xl:col-span-2 text-gray-500 dark:text-gray-400">
             <p>
-              Hi, I'm William Bailey, an aspiring data analyst with a passion for using data to solve real-world problems. I have experience working with a variety of data analysis tools and programming languages, including Python, SQL, Tableau, and PowerBI.
+              Hi, I&apos;m William Bailey, an aspiring data analyst with a passion for using data to solve real-world problems. I have experience working with a variety of data analysis tools and programming languages, including Python, SQL, Tableau, and PowerBI.
             </p>
             <p>
               During my initial working experience as a CAD technician, I had the chance to work alongside Transport Planners and Engineers who would often use ArcGIS to analyse map data in order to design and manage transport systems or urban spaces. This was my first experience of data analysis and I saw the power it had to help solve problems within my team, and it is where my interest in the field began.
