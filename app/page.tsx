@@ -75,7 +75,7 @@ export default async function Home() {
 
           <div className="prose max-w-none pb-4 dark:prose-invert sm:text-xl xl:col-span-2 text-gray-500 dark:text-gray-400">
             <p>
-              Hi, I&apos;m William Bailey, an aspiring data analyst with a passion for using data to solve real-world problems. I have experience working with a variety of data analysis tools and programming languages, including Python, SQL, Tableau, and PowerBI.
+              Hi, I&apos;m William Bailey, an aspiring data analyst with a passion for using data to solve real-world problems. I have experience working with a variety of data analysis tools and programming languages, including Python, SQL, Tableau, and Excel.
             </p>
             <p>
               During my initial working experience as a CAD technician, I had the chance to work alongside Transport Planners and Engineers who would often use ArcGIS to analyse map data in order to design and manage transport systems or urban spaces. This was my first experience of data analysis and I saw the power it had to help solve problems within my team, and it is where my interest in the field began.
@@ -84,7 +84,7 @@ export default async function Home() {
               I made the decision to leave my job, and I undertook a Masters in Computer Science in order to gain deeper knowledge of data science and analysis. It was on this course where I learned about some of the key tools and concepts of data science, such as, SQL, Python, database management, and machine learning.
             </p>
             <p>
-              I completed my course at the end of 2019, which coincided very nicely with the start of the pandemic. Over the course of this period, I started my own business and worked self-employed as a Web Developer (as I am also knowledgeable of JavaScript, HTML, and CSS), creating websites for small businesses and startups. I have also kept up my learning of data analysis, as can be seen in the projects I have created, over on the work page of my site.
+              I completed my course at the end of 2019, which coincided very nicely with the start of the pandemic. Over the course of this period, I started my own business and worked self-employed as a Web Developer (as I am also knowledgeable of JavaScript, HTML, and CSS), where I mainly developed websites for small businesses and startups. Over this period I have also been keeping up with my learning of data analysis, as can be seen over on my <Link href="/work" className="text-decoration-none no-underline text-blue-600 hover:underline dark:text-blue-500">work page.</Link>
             </p>
             <p>
               This takes us up to the present, where I am currently looking for a data analyst position in which my array of skills can be of great use, and I can also continue my learning.
@@ -97,7 +97,7 @@ export default async function Home() {
         <div className="py-8 mx-auto max-w-screen-xl lg:py-16">
           <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
             <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Latest Posts</h2>
-            <p className="prose dark:prose-invert text-gray-500 sm:text-xl dark:text-gray-400">See my latest projects and posts about data analysis, probably mostly consisting of pretty visualisations relating to sport.</p>
+            <p className="prose dark:prose-invert text-gray-500 sm:text-xl dark:text-gray-400">See my latest projects and posts about data analysis, probs mostly consisting of pretty viz&apos;s relating to sport.</p>
           </div>
           <div className="grid justify-center gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
             {data.slice(0, 3).map((post) => (
