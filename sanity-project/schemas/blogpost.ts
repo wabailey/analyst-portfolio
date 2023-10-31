@@ -22,6 +22,11 @@ export default {
 			},
 		},
 		{
+			name: "thumbnail",
+			type: "image",
+			title: "Thumbnail",
+		},
+		{
 			name: "content",
 			type: "array",
 			title: "Content",
