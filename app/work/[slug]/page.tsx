@@ -57,7 +57,7 @@ export default async function WorkPost({ params, }: { params: { slug: string }; 
 
 			<div className="divide-y divide-gray-200 pb-7 dark:divide-gray-700">
 
-				<div className="prose max-w-5xl mx-auto pb-8 pt-10 dark:prose-invert prose-lg">
+				<div className="prose max-w-4xl mx-auto pb-8 pt-10 dark:prose-invert prose-lg">
 					<PortableText value={data.content} components={PortableTextComponent} />
 				</div>
 
