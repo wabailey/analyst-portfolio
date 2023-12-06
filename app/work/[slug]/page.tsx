@@ -29,7 +29,7 @@ export default async function WorkPost({ params, }: { params: { slug: string }; 
 	};
 
 	return (
-		<div className="divide-y divide-gray-200 dark:divide-gray-700">
+		<div className="divide-y divide-gray-100 dark:divide-gray-100/10">
 			<header className="pt-6 pb-4 md:pb-6">
 				<div className="text-center">
 
@@ -55,9 +55,9 @@ export default async function WorkPost({ params, }: { params: { slug: string }; 
 				</div>
 			</header>
 
-			<div className="divide-y divide-gray-200 pb-7 dark:divide-gray-700">
+			<div className="pb-7">
 
-				<div className="prose max-w-4xl mx-auto pb-8 pt-10 dark:prose-invert prose-lg">
+				<div className="max-w-4xl mx-auto pb-8 pt-10 prose dark:prose-invert prose-lg text-gray-500 dark:text-gray-400">
 					<PortableText value={data.content} components={PortableTextComponent} />
 				</div>
 

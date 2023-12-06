@@ -24,7 +24,7 @@ export default async function BlogPost({ params, }: { params: { slug: string }; 
 	};
 
 	return (
-		<div className="divide-y divide-gray-200 dark:divide-gray-700">
+		<div className="divide-y divide-gray-100 dark:divide-gray-100/10 xl:divide-y-0">
 			<header className="pt-6 pb-6">
 				<div className="space-y-4 text-center">
 
@@ -43,9 +43,9 @@ export default async function BlogPost({ params, }: { params: { slug: string }; 
 				</div>
 			</header>
 
-			<div className="divide-y divide-gray-200 pb-7 dark:divide-gray-700 xl:divide-y-0">
+			<div>
 				<div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-					<div className="prose max-w-4xl mx-auto pb-8 pt-10 dark:prose-invert prose-lg">
+					<div className="max-w-4xl mx-auto pb-8 pt-10 prose dark:prose-invert prose-lg text-gray-500 dark:text-gray-400">
 
 						<PortableText value={data.content} components={PortableTextComponent} />
 
