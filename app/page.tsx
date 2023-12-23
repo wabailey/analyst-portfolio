@@ -1,7 +1,7 @@
-import Me from "@/public/PotfolioPortrait.png";
 import Link from "next/link";
 import { client } from "./lib/sanity";
 import Image from "next/image";
+import Me from "../public/PortfolioPortrait.png";
 import { Data } from "./lib/interface";
 
 async function getBlogposts() {
@@ -29,9 +29,9 @@ export default async function Home() {
     <>
       <div className="mt-16">
 
-        <div className="flex flex-col items-center space-y-2 xl:grid xl:items-start xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
+        <div className="flex flex-col items-center space-y-8 xl:grid xl:items-start xl:grid-cols-3 xl:gap-x-8 xl:space-y-0">
           <div className="h-full min-h-[460px] max-h-[500px] min-w-[310px] sm:min-w-[340px] max-w-[390px] flex flex-col justify-center items-center rounded-3xl bg-gradient-to-tr from-blue-700 to-blue-400 dark:from-blue-950 dark:to-blue-600">
-            <Image alt="Picture of William Bailey" src={Me} className="h-48 object-cover object-top" />
+            <Image alt="Picture of Will" src={Me} className="h-48 object-cover object-top" />
             <h3 className="pt-4 pb-1 text-2xl font-semibold tracking-tight text-gray-200">William Bailey</h3>
 
             <a href="mailto:williamarthurbailey@outlook.com" className="font-light text-xs text-blue-300 dark:text-blue-400 hover:text-blue-950">williamarthurbailey@outlook.com</a>
@@ -68,26 +68,20 @@ export default async function Home() {
             </div>
 
             <p className="text-sm font-light max-w-[300px] text-blue-100 text-center">
-              Hi, I&apos;m Will. You will often find me combining my sporting interests with data analysis!
+              Hi, I&apos;m Will. I can often be found combining my sporting interests with visualizations
             </p>
 
           </div>
 
           <div className="prose max-w-none pb-4 dark:prose-invert sm:text-xl xl:col-span-2 text-gray-500 dark:text-gray-400">
             <p>
-              Hello my name is William Bailey, an aspiring data analyst with a passion for using data to solve real-world problems. I have experience working with a variety of data analysis tools and programming languages, including Python, SQL, Tableau, and Excel.
+              I am a self-taught Data Analyst with a Masters in Computer Science. My postgraduate studies have equipped me with some essential data science tools and concepts, including Python, machine learning, Tableau, and SQL. 
+            </p>
+            <p className="py-4">
+              I completed my studies at the end of 2019, and while navigating the challenges of the pandemic I transitioned into self-employment as a Web Developer, utilizing my expertise in JavaScript, HTML, and CSS to build websites for local businesses and small startups.
             </p>
             <p>
-              At my very first job out of university, as a CAD technician, I had the chance to experience the use of data analysis tools and techniques, when I would often be working alongside Transport Planners and Engineers, who would use ArcGIS to analyse map data in order to design and manage transport systems or urban spaces. I saw the power it had to help solve problems within my team, and it is where my interest in the field began.
-            </p>
-            <p>
-              I made the decision to leave my job, and I undertook a Masters in Computer Science, in order to gain deeper knowledge of data science and analysis. It was during my time on this course where I learned about some of the key tools and concepts of data science, such as, Python, AI & machine learning, and SQL & databases.
-            </p>
-            <p>
-              I completed my course at the end of 2019, which coincided very nicely with the start of the pandemic. Over this period, I created my own business and work self-employed as a Web Developer (as I am also knowledgeable of JavaScript, HTML, and CSS), where my current work invloves developing websites for local business, ecommerce, and small startups. Over this period I have also been keeping up with my learning of data analysis, as can be seen over on my <Link href="/work" className="text-decoration-none no-underline text-blue-600 hover:underline dark:text-blue-500">work page.</Link>
-            </p>
-            <p>
-              This takes us up to the present, where I am currently seeking a data analyst position in which my array of skills can be of great use and I can also continue my learning.
+              Over this period I also remained dedicated to honing my data analysis skills, as evidenced by my ongoing projects showcased on my <Link href="/work" className="text-decoration-none no-underline text-blue-600 hover:underline dark:text-blue-500">work page.</Link> I am now seeking a data analyst position where I can leverage my diverse skillset, including strong analytical aptitude, technical proficiency, and proven problem-solving skills, to contribute meaningfully and continue my professional growth.
             </p>
           </div>
 
@@ -97,7 +91,7 @@ export default async function Home() {
         <div className="py-8 mx-auto max-w-screen-xl lg:py-16">
           <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
             <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Latest Posts</h2>
-            <p className="prose dark:prose-invert text-gray-500 sm:text-xl dark:text-gray-400">See my latest projects and posts, probs mostly consisting of pretty viz&apos;s relating to sport.</p>
+            <p className="prose dark:prose-invert text-gray-500 sm:text-xl dark:text-gray-400">See my latest projects and posts.</p>
           </div>
           <div className="grid justify-center gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3 lg:gap-10 pt-8">
             {data.slice(0, 3).map((post) => (
