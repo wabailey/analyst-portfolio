@@ -30,7 +30,7 @@ export default async function Work() {
 				<h1 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl md:text-6xl">
 					Projects
 				</h1>
-				<p className="sm:text-xl font-light text-gray-500 dark:text-gray-400">What are these projects of?</p>
+				<p className="sm:text-xl font-light text-gray-500 dark:text-gray-400">Here you will see some of my favourite projects that I have worked on.</p>
 			</div>
 
 			<div className="grid justify-center gap-4 md:gap-6 md:grid-cols-2 lg:gap-10 pt-8">

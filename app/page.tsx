@@ -34,7 +34,7 @@ export default async function Home() {
             <Image alt="Picture of Will" src={Me} className="h-48 object-cover object-top" />
             <h3 className="pt-4 pb-1 text-2xl font-semibold tracking-tight text-gray-200">William Bailey</h3>
 
-            <a href="mailto:williamarthurbailey@outlook.com" className="font-light text-xs text-blue-300 dark:text-blue-400 hover:text-blue-950">williamarthurbailey@outlook.com</a>
+            <a href="mailto:williamarthurbailey@outlook.com" className="font-light text-xs text-blue-300 dark:text-blue-400 hover:text-blue-950">Get in touch via email</a>
 
             <div className="flex space-x-5 py-6">
               <a href="https://github.com/wabailey" target="_blank">
