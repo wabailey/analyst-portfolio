@@ -16,6 +16,8 @@ async function getProjects(slug: string) {
 	return data;
 };
 
+export const revalidate = 60
+
 export default async function WorkPost({ params, }: { params: { slug: string }; }) {
 
 	const data = (await getProjects(params.slug)) as Data;

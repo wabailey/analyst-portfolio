@@ -12,6 +12,8 @@ async function getBlogposts(slug: string) {
 	return data;
 }
 
+export const revalidate = 60
+
 export default async function BlogPost({ params, }: { params: { slug: string }; }) {
 	const data = await getBlogposts(params.slug) as Data;
 

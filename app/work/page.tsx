@@ -20,6 +20,8 @@ async function getProjects() {
 	return data;
 };
 
+export const revalidate = 60
+
 export default async function Work() {
 
 	const data = (await getProjects()) as Data[];
