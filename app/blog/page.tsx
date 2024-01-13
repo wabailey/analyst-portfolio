@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { client } from "../lib/sanity";
 import Image from "next/image";
+import Placeholder from "../../public/Placeholder.jpg";
 import { Data } from "../lib/interface";
 
 async function getBlogposts() {
@@ -41,7 +42,7 @@ export default async function Work() {
 
 						<div className="relative h-56 w-full">
 							<Link href={`/blog/${post.slug}`} prefetch>
-								<Image fill src={post.thumbnailUrl} alt="Thumbnail image of the post" className="rounded-t-lg w-full h-full object-cover" />
+								<Image fill src={post.thumbnailUrl || Placeholder} alt="Thumbnail image of the post" className="rounded-t-lg w-full h-full object-cover" />
 							</Link>
 						</div>
 
