@@ -4,7 +4,7 @@ import { client } from "../lib/sanity";
 import Image from "next/image";
 
 async function getProjects() {
-	const query = `*[_type == "project"] {
+	const query = `*[_type == "project"] | order(_createdAt desc) {
 		title,
 		description,
 		"thumbnailUrl": thumbnail.asset->url,

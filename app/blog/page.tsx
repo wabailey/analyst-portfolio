@@ -5,7 +5,7 @@ import Placeholder from "../../public/Placeholder.jpg";
 import { Data } from "../lib/interface";
 
 async function getBlogposts() {
-	const query = `*[_type == "post"] {
+	const query = `*[_type == "post"] | order(_createdAt desc) {
 		title,
 		description,
 		"thumbnailUrl": thumbnail.asset->url,
