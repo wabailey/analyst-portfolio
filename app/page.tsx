@@ -71,20 +71,20 @@ export default async function Home() {
             </div>
 
             <p className="text-sm font-light max-w-[300px] text-blue-100 text-center">
-              Hi, I&apos;m Will. I can often be found combining my sporting interests with visualizations
+              Hi, I&apos;m Will. Football analyst and former web developer. I make great data visualisations.
             </p>
 
           </div>
 
           <div className="prose max-w-none pb-4 dark:prose-invert sm:text-xl xl:col-span-2 text-gray-500 dark:text-gray-400">
             <p>
-              I am a self-taught Data Analyst with a Masters in Computer Science. My postgraduate studies have equipped me with some essential data science tools and concepts, including Python, machine learning, Tableau, and SQL. 
+            I am an experienced web dev professional and have turned my skills toward the world of football analytics, which is where I now develop insights and visualisations of the beautiful game. 
+            </p>
+            <p> 
+            To paraphrase the great David Sumpter, it is important that the analysis I provide is grounded in footballing principle, and just like every play on the pitch tells a story, my visuals and analyses capture the essence of players, teams, and matches, offering in-depth understanding based on footballing knowledge. 
             </p>
             <p className="py-4">
-              I completed my studies at the end of 2019, and while navigating the challenges of the pandemic I transitioned into self-employment as a Web Developer, utilizing my expertise in JavaScript, HTML, and CSS to build websites for local businesses and small startups.
-            </p>
-            <p>
-              Over this period I also remained dedicated to honing my data analysis skills, as evidenced by my ongoing projects showcased on my <Link href="/work" className="text-decoration-none no-underline text-blue-600 hover:underline dark:text-blue-500">work page.</Link> I am now seeking a data analyst position where I can leverage my diverse skillset, including strong analytical aptitude, technical proficiency, and proven problem-solving skills, to contribute meaningfully and continue my professional growth.
+            If you would like to see a curation of my work check out the <Link href="/work" className="text-decoration-none no-underline text-blue-600 hover:underline dark:text-blue-500">work page.</Link> For the visualisations you see in my tweets, they will mostly be found on the <Link href="/blog" className="text-decoration-none no-underline text-blue-600 hover:underline dark:text-blue-500">blog page.</Link>
             </p>
           </div>
 
